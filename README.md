@@ -9,7 +9,7 @@ MenuAnimation is a XCode project, containing an application prototype showcasing
 ## Scale&Size
 The menu animation covers size and scale changes, used to deliver a nice, smooth and coherent animation  Let's take a quick look at the animation, then we'll analyze the code.
 
-![Alt Text](https://github.com/seldon1000/SwiftUI_Animations/blob/main/ezgif-2-78cdc7af88.gif)
+![Alt Text](https://github.com/seldon1000/MenuAnimation/blob/main/menu.gif)
 
 What's needed to implement this animation? Let's take a close look at the code and start with the boring part. This is the source code from the MenuAnimationApp file, the starting point of the prototype.
 
