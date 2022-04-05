@@ -13,7 +13,10 @@ struct MainView: View {
     var body: some View {
         ZStack {
             Color.pink
+                .opacity(0.2)
             Text("hold")
+                .font(.system(size: 28, design: .serif))
+                .scaleEffect(showMenu ? 0.5 : 1.0)
         }
         .frame(width: UIScreen.main.bounds.width * (showMenu ? 0.5 : 1.0), height: UIScreen.main.bounds.height * (showMenu ? 0.5 : 1.0))
         .onTapGesture {
